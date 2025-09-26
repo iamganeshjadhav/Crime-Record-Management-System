@@ -1,70 +1,57 @@
-# Getting Started with Create React App
+# Project Name:
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+Crime Management System
 
-## Available Scripts
+# Project Description:
 
-In the project directory, you can run:
+The Crime Management System (CMS) is a full-stack web application designed to manage and track crimes, police stations, officers, criminals, victims, and crime reports efficiently. It provides an easy-to-use interface for administrators or law enforcement personnel to add, update, and view all crime-related information.
 
-### `npm start`
+One of the key features of this system is ensuring that duplicate Police Station names are not allowed, maintaining data integrity for stations.
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+# Key Features:
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+1. Police Stations Management
 
-### `npm test`
+Add new police stations with name, location, and contact number.
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+Prevents duplicate station names to ensure each station is unique.
 
-### `npm run build`
+View all registered police stations in a table.
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+2. Police Officers Management
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+Add officers with name, rank, and assign to a station.
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+Dropdowns for stations are dynamically updated when a new station is added.
 
-### `npm run eject`
+3. Criminals Management
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+Add criminals with name, age, gender, address, and crime history.
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+4. Victims Management
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+Add victims with name, age, gender, and address.
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+5. Crimes Management
 
-## Learn More
+Record new crimes with type, date, location, station, and officer.
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+Dropdowns for stations and officers update dynamically.
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+6. Crime Reports Management
 
-### Code Splitting
+Add reports linking crimes, criminals, and victims.
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+Include status and remarks for each report.
 
-### Analyzing the Bundle Size
+7. Dynamic Dropdown Updates
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
+Adding a new station updates stations in officers and crimes forms automatically.
 
-### Making a Progressive Web App
+8. Frontend & Backend
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
+Built using React.js with plain CSS.
 
-### Advanced Configuration
+Backend using Node.js and Express.js with MySQL database.
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+# Key Rule: Duplicate Police Station names are strictly prevented.

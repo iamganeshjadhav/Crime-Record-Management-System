@@ -1,0 +1,101 @@
+body {
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    background-color: #DDF4E7;
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    width: 95%;
+    margin: 20px auto;
+    background: #D9E9CF;
+    padding: 20px;
+    border: 2px solid black;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0,0,0,0.1);
+}
+
+
+#slogan {  
+  text-align: center;          
+  animation: slide 0.27s linear infinite;
+}
+
+@keyframes slide {
+  0% {
+     
+    color: red;               
+  }
+  100% {
+                     
+    color: rgb(255, 137, 47);
+  }
+}
+
+p {
+    text-align: center;
+    color: black;
+    font-size: 35px;
+}
+
+h1 {
+    text-align: center;
+    color: #9A3F3F;
+    font-size: 40px;
+}
+
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-bottom: 20px;  
+    
+}
+
+table, th, td {
+    border: 1px solid #ccc;
+    
+}
+
+th, td {
+    padding: 8px;
+    border: 1px solid black;
+    text-align: center;  
+    font-size: 20px;
+}
+
+th {
+    background-color: #f0f0f0;
+    border: 1px solid black;
+}
+
+form {
+    margin-bottom: 20px;
+}
+
+input, select {
+    padding: 5px;
+    margin-right: 10px;
+    font-size: 23px;
+  
+}
+
+
+button {
+    padding: 5px 10px;
+    cursor: pointer;
+    background-color: #007bff;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    font-size: 23px;
+}
+
+button:hover {
+    background-color: greenyellow;
+    color: black;
+    border: 2px solid black;
+   
+
+    
+}
